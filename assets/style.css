@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Basic CSS
+   ========================================================================== */
+
+.section-padding {
+    padding: 30px 30px;
+    
+}
+/*
+.background-image{
+    background-image: url(asset/css/logo.jpg);
+    height: 100px;
+    weight:80px;
+    position: absolute;
+
+} */
+.section-title {
+    padding: 0 0 22px;
+    color: #e19b1b;
+}
+
+  .frm {
+    font-size: 16px;
+    position: inherit;
+    background-color: #f7f7f8;
+    color: #111;
+    font-family: serif;
+    border-radius: 10px;
+    padding:25px 20px;
+};
+label {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+
+/************ Submit Buttom **********/
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    
+    cursor: pointer;
+    /*background-color: #3b67b1;*/
+    background-color: #257816;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0px 5px; 
+    padding: 10px 45px;
+    border-radius: 50px;
+}
+
+ .section-bottom {
+    text-align: center;
+    font-size: 16px;
+    margin: 30px 16px;
+}
+
+
+p.Registration {
+    color: fff;
+    color: ddd;
+    color: #e5b23e;
+    cursor: pointer;
+}
+
+
+/* ========================================================================== 
+                              Registration 
+ ========================================================================== */
+
+
+
+.Regi{
+
+    background-color: #f7f7f8;
+    color: black;
+    font-family: serif;
+    padding: 30px;
+    border-radius: 12px;
+
+}
+
+.radio_btn{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.reg_btn{
+    margin: auto;
+}
+
+
+
+
+.error {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+
+
